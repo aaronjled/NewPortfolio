@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Ledbetter Portfolio Site</title>
+    <script src="https://kit.fontawesome.com/6f8e11f9ed.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet"
+    href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+    <header>
+        <div class="logo">
+            <img src = "img/robot.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__items"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__items"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__items"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__items"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro Section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--into">
+            Hi, I am <strong>Aaron Ledbetter</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+        <img src="img/aaron.png" alt="Aaron Ledbetter" class="intro__img">
+    </section>
+    <!-- My Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <div class="skills">
+            <div class="skill"> <!--First Skill-->
+                <h3>Languages</h3>
+                <p>JavaScript, HTML, CSS, Python</p>
+            </div> 
+
+            <div class="skill"> <!--Second Skill-->
+                <h3>Libraries and Frameworks</h3>
+                <p>Node.js, Express.js, EJS, React</p>
+            </div> 
+
+            <div class="skill"> <!--Third Skill-->
+                <h3>Databases and Other</h3>
+                <p>MongoDB, Mongoose, SQL, Django, RESTful Routing JSON, Github</p>
+            </div> 
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software Engineer</p>
+
+        <div class="about-me__body">
+            <p>I’m a full-stack developer 
+                specializing in Javascript technologies (PERN stack -PostgresSQL, Express JS, 
+                React JS, Node JS) to build complete web applications with API systems. </p>
+            <p>I'm transitioning from over a decade in the Security Industry where I've learned 
+                how to make the most of the resources given to me, and successfully complete projects 
+                under short deadlines with varying levels of support. I specialize in attention 
+                to detail, communication, and am excited to start a new career in the Software Development field.</p>
+        </div>
+        <img src="img/aaron.png" alt="Aaron Ledbetter" class="about-me__img">
+    </section>
+
+    <!-- My Work Section -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A collection of projects</p>
+
+        <div class="portfolio">
+            <!--Project Number 1-->
+            <a href="#" class="portfolio__items">
+                <img src="img/space.jpeg" alt="Project 1" class="portfolio__img">
+            </a>
+
+            <!--Project Number 2-->
+            <a href="#" class="portfolio__items">
+                <img src="img/cloud.jpeg" alt="Project 2" class="portfolio__img">
+            </a>
+
+            <!--Project Number 3-->
+            <a href="#" class="portfolio__items">
+                <img src="img/sky.jpeg" alt="Project 3" class="portfolio__img">
+            </a>
+
+            <!--Project Number 4-->
+            <a href="#" class="portfolio__items">
+                <img src="img/rock.jpeg" alt="Project 4" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:aaronjled@gmail.com" class="footer__link">aaronjled@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/aaron-ledbetter1/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/aaronjled">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://drive.google.com/file/d/1K8swlZeOfQgsx9ndFPrH-y_IzRQ37yeK/view?usp=sharing">
+                    <i class="fa-regular fa-file"></i> 
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+    </body>
+</html>
